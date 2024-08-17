@@ -2,18 +2,35 @@ package Main.list.OperacoesBasicas;
 
 public class Item {
     private String nome;
-    private Double valor;
-    private Integer quantidade;
+    private double valor;
+    private int quantidade;
 
-    public Item(String nome) {
+
+    public Item(String nome, double valor, int quantidade) {
         this.nome = nome;
-    }
-
-    public Item(Double valor) {
         this.valor = valor;
+        this.quantidade = quantidade;
     }
 
-    public Item(String nome, double valor, Integer quantidade) {
-        this.quantidade = quantidade;
+    public String getNome() {
+        return nome;
+    }
+
+
+    public double getValor() {
+        return valor;
+
+    }
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "nome='" + nome + '\'' +
+                ", valor=" + valor +
+                ", quantidade=" + quantidade +
+                '}';
     }
 }
