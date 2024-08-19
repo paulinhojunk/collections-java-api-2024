@@ -1,4 +1,4 @@
-package Main.list.OperacoesBasicas;
+package Main.list.Pesquisa;
 
 public class Item {
     private String nome;

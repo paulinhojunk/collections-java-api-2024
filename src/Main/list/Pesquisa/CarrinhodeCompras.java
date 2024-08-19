@@ -1,8 +1,6 @@
-package Main.list.OperacoesBasicas;
+package Main.list.Pesquisa;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Iterator;
-import java.util.ListIterator;
 
 public class CarrinhodeCompras {
     private final List<Item> listaItens;
